@@ -48,11 +48,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+    - Relational Database is the database software itself, which manages storage, querying, updating, and pretty much everything.
+    - SQL is a Structured Query Language.  It's a language or a family of closely related languages.  We use it to query the relational database.
+
 2. Why do tables need a `primary key`?
+
+    - A primary key is what helps to keep the table unique.  It's how we can link other tables to it.
 
 3. What is the name given to a table column that references the primary key on another table.
 
+    - The name would be a foreign key.  That is how we can query and link different tables together and retrieve different information accross the database.
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+    - Say you have orders and products.  You can have many products in an order but you can also have the same product in many orders.  In order to handle this we need to have an intermediary table that holds toreign keys that reference the primary key on the related tables.  In this case it would be the products table and the orders table.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
